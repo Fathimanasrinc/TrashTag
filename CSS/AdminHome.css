@@ -6,12 +6,12 @@
   }
   
   body {
-    font-family: Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #f4f4f4;
   }
   
   header {
-    background-color: green;
+    background-color: #42b883;
   }
   
   .container {
@@ -26,15 +26,23 @@
   /* Button styling */
   .btn {
     padding: 10px 20px;
-    font-size: 1rem;
-    margin: 0 10px;
+    font-size: 2rem;
+    margin: 10px 10px;
     cursor: pointer;
     border: none;
-    background-color: #4CAF50;
     color: white;
     border-radius: 5px;
     height: 150px;
     width: 400px;
+  }
+  .btn-collected{
+    background-color: #347474;
+  }
+  .btn-notcollected{
+    background-color: #35495e;
+  }
+  .center-btn{
+    background-color:  #ff7e67;
   }
 
   .navbar {
